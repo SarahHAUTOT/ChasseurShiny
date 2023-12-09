@@ -1,0 +1,69 @@
+body {
+	background-image: url(../illustrations/FondLuneCentre.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0;
+	--primary: #6bade4;
+	color: var(--primary);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+header {
+	width: 120px;
+	height: 70px;
+
+	position: absolute;
+
+	border: 3px solid var(--primary);
+	border-radius: 60px;
+	background-color: #FFFFFF20;
+
+	text-align: center;
+}
+
+header img {
+	width: 50%;
+}
+
+
+nav 
+{
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 40%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+	margin: 2%;
+
+	background-color: #FFFFFF20;
+	border-radius: 50px;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover {
+	color: var(--primary);
+	border-radius: 20px;
+	background-color: #6bade420;
+	transition: 0.5s ease;
+}

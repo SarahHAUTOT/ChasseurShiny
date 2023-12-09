@@ -8,6 +8,7 @@ Permet d'intéragir avec une base de donnée gardant en mémoir différentes cha
 
 ## Note de l'auteur :
 
+- **09/12/2023** : Reconstruction du projet sur une autre branche. Merci d'être patient.
 - **09/12/2023** : Projet en préparation. Non fonctionnel pour l'instant.
 
 

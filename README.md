@@ -1,19 +1,4 @@
 # ChasseurShiny
 
-## Type
-Page WEB gérer par du PHP et un peu de JavaScript.
-Permet d'intéragir avec une base de donnée gardant en mémoir différentes chasses (selon différents utilisateur).
-
-
-
-## Note de l'auteur :
-
-- **09/12/2023** : Reconstruction du projet sur une autre branche. Merci d'être patient.
-- **09/12/2023** : Projet en préparation. Non fonctionnel pour l'instant.
-
-
-
-## Projet personnel
-- **Auteur** : HAUTOT Sarah
-- **Date**   : 09/12/2023
-- **BUT**    : Utilisation de PHP + Utiliter personnel.
+## Qu'est ce que cet branche ?
+Le projet ayant été crée de base sur un coup de tête, j'ai decidé de tous retravailler mais cette fois si avec un peu de serieux.

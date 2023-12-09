@@ -22,6 +22,18 @@ class Pokemon
     public function getGeneration() { return $this->generation;  }
     public function getImgNormal () { return $this->imgsonshiny; }
     public function getImgShiny  () { return $this->imgshiny;    }
+
+    
+    public function __toString() 
+    {
+        $res =       "id   :".$this->numpokedex."\n";
+        $res = $res ."pok  :".$this->nompokemon."\n";
+        $res = $res ."gen  :".$this->generation."\n";
+        $res = $res ."imgNS:".$this->imgsonshiny."\n";
+        $res = $res ."imgS :".$this->imgshiny."\n";
+        $res = $res ."<br/>";
+        return $res;
+    }
 }
 
 ?>

@@ -23,7 +23,7 @@
 
 			if (isset($_POST["modif"])) 
 			{
-				header("Location: ajouterShinyHunt.php?num=$numChasse");
+				header("Location: formulaireShinyHunt.php?num=$numChasse");
 			}
 
 			if (isset($_POST["finit"])) 
@@ -98,7 +98,7 @@
         echo 
         '
             <article id="ADD">
-                <a href = "ajouterShinyHunt.php">
+                <a href = "formulaireShinyHunt.php">
                     <h1>+</h1>
                     Ajouter une nouvelle chasse
                 </a>

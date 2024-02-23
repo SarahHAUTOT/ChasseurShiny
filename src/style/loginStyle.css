@@ -1,0 +1,86 @@
+body {
+	background-image: url('../../Illustrations/FondLuneDroite.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #3A4657;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 0;
+	text-align: left;
+	/* Remove the margin-bottom */
+}
+
+h2 {
+	font-size: 10px;
+	text-align: left;
+}
+
+img {
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#TITLE {
+	margin-bottom: 20px;
+}
+
+section {
+	margin: 50px 150px;
+	padding-top: 1px;
+	background-color: #F2F2F2;
+	width: 30%;
+	aspect-ratio: 5/7;
+	border-radius: 5%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-group {
+	width: 100%;
+	height: 10%;
+	text-align: left;
+	margin: 3% 17%;
+}
+
+.input-groupcb {
+	text-align: center;
+	margin-top: 15%;
+	margin-bottom: 5%;
+}
+
+.input {
+	margin: 10px 0px;
+	width: 60%;
+	height: 30px;
+	border-radius: 10px;
+	padding-left: 15px;
+}
+
+input       { outline : none; border : 2px solid #3A4657; }
+input:hover { outline : none; border : 2px solid #8497B0; }
+input:focus { outline : none; border : 2px solid #8497B0; }
+
+.input ::placeholder {
+	margin-left: 10px;
+}
+
+#BTN {
+	margin-left: 15%;
+	width: 38%;
+	height: 25px;
+	background-color: #8497B0;
+	border: none;
+	border-radius: 20px;
+}
+
+p {
+	margin-top: auto;
+	text-align: left;
+	margin-left: 20px;
+}
